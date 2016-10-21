@@ -48,9 +48,19 @@
         android:text="Next Page"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:id="@+id/btnNext"
         android:layout_below="@+id/cb1"
+        android:layout_alignRight="@+id/cb1"
+        android:layout_alignEnd="@+id/cb1" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNext"
         android:layout_alignLeft="@+id/btn1"
         android:layout_alignStart="@+id/btn1"
-        android:layout_marginTop="69dp"
-        android:id="@+id/btnNext" />
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnLogin" />
 </RelativeLayout>
