@@ -112,6 +112,14 @@ public class Home extends AppCompatActivity
             }
         });
 
+        final Button btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnLogin.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent loginintent = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(loginintent);
+            }
+        });
     }
 
 
