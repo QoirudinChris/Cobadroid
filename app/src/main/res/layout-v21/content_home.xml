@@ -13,28 +13,6 @@
     tools:context="com.example.alfatih.cobadroid.Home"
     tools:showIn="@layout/app_bar_home">
 
-    <Button
-        android:text="@string/hapus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn1"
-        android:textSize="18sp"
-        style="@style/Widget.AppCompat.Button"
-        android:elevation="5dp"
-        android:layout_marginBottom="181dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:text="@string/next_page"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="55dp"
-        android:id="@+id/btnNext"
-        android:layout_below="@+id/cb1"
-        android:layout_alignRight="@+id/cb1"
-        android:layout_alignEnd="@+id/cb1" />
-
     <TextView
         android:text="@string/textview"
         android:layout_width="wrap_content"
@@ -55,13 +33,36 @@
         android:layout_marginTop="18dp" />
 
     <Button
+        android:text="@string/hapus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:textSize="18sp"
+        style="@style/Widget.AppCompat.Button"
+        android:elevation="5dp"
+        android:layout_below="@+id/cb1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:text="@string/next_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:id="@+id/btnNext"
+        tools:ignore="RtlHardcoded"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_alignRight="@+id/cb1"
+        android:layout_alignEnd="@+id/cb1" />
+
+    <Button
         android:text="@string/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="17dp"
         android:id="@+id/btnLogin"
-        android:layout_alignTop="@+id/btn1"
+        tools:ignore="RtlHardcoded"
+        android:layout_below="@+id/btnNext"
         android:layout_alignLeft="@+id/btn1"
         android:layout_alignStart="@+id/btn1" />
-
 </RelativeLayout>

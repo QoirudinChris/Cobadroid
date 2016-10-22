@@ -120,6 +120,8 @@ public class Home extends AppCompatActivity
                 startActivity(loginintent);
             }
         });
+
+
     }
 
 

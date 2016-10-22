@@ -20,4 +20,14 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_crud">CRUD</string>
+    <string name="crud">CRUD</string>
+    <string name="hapus">Hapus</string>
+    <string name="login">Login</string>
+    <string name="next_page">Next Page</string>
+    <string name="saya_setuju">Saya setuju</string>
+    <string name="textview">TextView</string>
+    <string name="haiii">Haiii</string>
+    <string name="next">Next</string>
+    <string name="tampil">Tampil</string>
 </resources>
